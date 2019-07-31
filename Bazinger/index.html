@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html onmouseout="">
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="ico/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta name="viewport" content="width=device-width" />
+	<title>Bazinger</title>
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>	
+
+	<!-- Start Window Overlay -->
+	<div class="window-overlay" id="windowOverlay"></div>
+	<!-- End Window Overlay -->
+	<!-- Start Header -->
+	<div class="header-wrapper">
+		<div class="header-navbar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md mb-3">
+						<div class="logo">
+							<img src="img/header/logo.png" alt="">
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="navbar-menu">
+							<ul class="list-unstyled">
+								<li class="active"><a href="#">Home</a></li>
+								<li data-section="#FeaturesWrapper"><a href="#">Features</a></li>
+								<li data-section="#GalleryWrapper"><a href="#">Gallery</a></li>
+								<li data-section="#VideoWrapper"><a href="#">Video</a></li>
+								<li data-section="#PricesWrapper"><a href="#">Prices</a></li>
+								<li data-section="#TestimonialsWrapper"><a href="#">Testimonials</a></li>
+								<li data-section="#DownloadWrapper"><a href="#">Download</a></li>
+								<li data-section="#ContactWrapper"><a href="#">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mainslider-wrapper">
+			<div id="MainSlider" class="carousel slide main-slider" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#MainSlider" data-slide-to="0" class="active"></li>
+			    <li data-target="#MainSlider" data-slide-to="1"></li>
+			    <li data-target="#MainSlider" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <div class="container-fluid p-0">
+				      <div class="row">
+				      	<div class="col-md mb-5">
+				      		<div class="slider-image">
+				      			<img src="img/header/iphone-5s.png" class="animated rubberBand" alt="">
+				      		</div>
+				      	</div>
+				      	<div class="col-md">
+				      		<div class="details">
+					      		<h1 class="title animated bounceInDown">Simple, Beautiful <span>and Amazing</span></h1>
+					      		<h2 class="description animated fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</h2>
+					      		<div class="links animated rotateInDownRight">
+					      			<a href="#" class="download">Download</a>
+					      			<a href="#" class="learn-more">Learn more</a>
+					      		</div>
+					      		<div class="stores animated delay-1s fadeIn">
+					      			<span class="text">Available on: </span>
+					      			<a href="#" class="apple animated delay-2s bounceInRight">
+					      				<i class="fab fa-apple animated delay-3s heartBeat"></i>
+					      			</a>
+					      			<a href="#" class="android animated delay-2s bounceInLeft">
+					      				<i class="fab fa-android animated delay-3s heartBeat"></i>
+					      			</a>
+					      		</div>
+				      		</div>
+				      	</div>
+				      </div>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <div class="container-fluid p-0">
+				      <div class="row">
+				      	<div class="col-md mb-5">
+				      		<div class="slider-image">
+				      			<img src="img/header/iphone-5s.png" class="animated bounceInLeft" alt="">
+				      		</div>
+				      	</div>
+				      	<div class="col-md">
+				      		<div class="details">
+					      		<h1 class="title animated zoomInDown">Simple, Beautiful <span>and Amazing</span></h1>
+					      		<h2 class="description animated zoomInRight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</h2>
+					      		<div class="links animated delay-1s slideInRight">
+					      			<a href="#" class="download animated">Download</a>
+					      			<a href="#" class="learn-more animated">Learn more</a>
+					      		</div>
+					      		<div class="stores animated delay-2s slideInUp">
+					      			<span class="text">Available on: </span>
+					      			<a href="#" class="apple animated rollIn">
+					      				<i class="fab fa-apple animated delay-3s tada"></i>
+					      			</a>
+					      			<a href="#" class="android animated rollIn">
+					      				<i class="fab fa-android animated delay-3s tada"></i>
+					      			</a>
+					      		</div>
+				      		</div>
+				      	</div>
+				      </div>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <div class="container-fluid p-0">
+				      <div class="row">
+				      	<div class="col-md mb-5">
+				      		<div class="slider-image">
+				      			<img src="img/header/iphone-5s.png" class="animated flipInX" alt="">
+				      		</div>
+				      	</div>
+				      	<div class="col-md">
+				      		<div class="details">
+					      		<h1 class="title animated fadeInDownBig">Simple, Beautiful <span>and Amazing</span></h1>
+					      		<h2 class="description animated fadeInUpBig">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</h2>
+					      		<div class="links animated delay-1s bounceInDown">
+					      			<a href="#" class="download">Download</a>
+					      			<a href="#" class="learn-more">Learn more</a>
+					      		</div>
+					      		<div class="stores animated delay-3s jello">
+					      			<span class="text">Available on: </span>
+					      			<a href="#" class="apple animated">
+					      				<i class="fab fa-apple"></i>
+					      			</a>
+					      			<a href="#" class="android animated">
+					      				<i class="fab fa-android"></i>
+					      			</a>
+					      		</div>
+				      		</div>
+				      	</div>
+				      </div>	
+			      </div>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev carousel-controls" href="#MainSlider" role="button" data-slide="prev">
+			    <span class="icon">
+			    	<i class="fas fa-angle-left"></i>
+			    </span>
+			  </a>
+			  <a class="carousel-control-next carousel-controls" href="#MainSlider" role="button" data-slide="next">
+			    <span class="icon">
+				    <i class="fas fa-angle-right"></i>
+			  	</span>
+			  </a>
+			</div>	
+		</div>	
+	</div>
+	<!-- End Header -->
+	<!-- Start Features -->
+	<div class="features-wrapper" id="FeaturesWrapper">
+		<div class="container">
+			<h1 class="title">Summarise the features</h1>
+			<p class="description">summarise what your product is all about.</p>
+			<div class="row mt-5">
+				<div class="col-lg col-md-6 mb-5">
+					<div class="feature">
+						<span class="icon">
+							<i class="fas fa-layer-group"></i>
+						</span>
+						<h2 class="feature-title">Attractive Layout</h2>
+						<p class="feature-description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>	
+					</div>
+				</div>
+				<div class="col-lg col-md-6 mb-5">
+					<div class="feature">
+						<span class="icon">
+							<i class="fas fa-mobile-alt"></i>
+						</span>
+						<h2 class="feature-title">Fresh Design</h2>
+						<p class="feature-description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>	
+					</div>
+				</div>
+				<div class="col-lg col-md-6 mb-5">
+					<div class="feature active">
+						<span class="icon">
+							<i class="fas fa-comments"></i>
+						</span>
+						<h2 class="feature-title">multipurpose</h2>
+						<p class="feature-description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>	
+					</div>
+				</div>
+				<div class="col-lg col-md-6">
+					<div class="feature">
+						<span class="icon">
+							<i class="fas fa-laptop"></i>
+						</span>
+						<h2 class="feature-title">Easy to customize</h2>
+						<p class="feature-description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>	
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<!-- End Features -->
+	<!-- Start Gallery -->
+	<div class="gallery-wrapper" id="GalleryWrapper">
+		<div class="container">
+			<h1 class="title">Show the gallery</h1>
+			<p class="description">summarise what your product is all about</p>
+			<div class="row mt-5">
+				<div class="col-lg col-md-6 mb-5">
+					<div class="screenshot">
+						<img src="img/gallery/0.png" class="photo" alt="">
+						<div class="overlay">
+							<span class="icon">
+								<i class="fas fa-plus"></i>
+							</span>
+						</div>
+						<div class="footer">
+							<p class="name">Screen shot #1</p>
+						</div>
+					</div>
+					<p class="gallery-description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+				</div>
+				<div class="col-lg col-md-6 mb-5">
+					<div class="screenshot">
+						<img src="img/gallery/0.png" class="photo" alt="">
+						<div class="overlay">
+							<span class="icon">
+								<i class="fas fa-plus"></i>
+							</span>
+						</div>
+						<div class="footer">
+							<p class="name">Screen shot #2</p>
+						</div>
+					</div>
+					<p class="gallery-description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+				</div>
+				<div class="col-lg col-md-6 mb-5">
+					<div class="screenshot">
+						<img src="img/gallery/0.png" class="photo" alt="">
+						<div class="overlay">
+							<span class="icon">
+								<i class="fas fa-plus"></i>
+							</span>
+						</div>
+						<div class="footer">
+							<p class="name">Screen shot #3</p>
+						</div>
+					</div>
+					<p class="gallery-description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+				</div>
+				<div class="col-lg col-md-6">
+					<div class="screenshot">
+						<img src="img/gallery/0.png" class="photo" alt="">
+						<div class="overlay">
+							<span class="icon">
+								<i class="fas fa-plus"></i>
+							</span>
+						</div>
+						<div class="footer">
+							<p class="name">Screen shot #4</p>
+						</div>
+					</div>
+					<p class="gallery-description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Gallery -->
+	<!-- Start video -->
+	<div class="video-wrapper" id="VideoWrapper">
+		<div class="overlay"></div>
+		<div class="video">
+			<div class="container p-0">
+				<a href="#" class="icon" id="playVideo">
+					<i class="fas fa-play"></i>
+				</a>
+				<h2 class="video-title">Watch the best Technology in <span>Action</span></h2>
+				<p class="video-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>	
+			</div>
+		</div>
+	</div>
+	<!-- End video -->
+	<!-- Start Prices -->
+	<div class="prices-wrapper" id="PricesWrapper">
+		<div class="container">
+			<h1 class="title">Choose your price</h1>
+			<p class="description">summarise what your product is all about </p>
+			<div class="row mt-5">
+				<div class="col-md mb-5">
+					<div class="basic package">
+						<div class="container p-0">
+							<h2 class="package-title">basic package</h2>
+							<p class="package-price">20$</p>
+							<div class="package-features">
+								<ul class="list-unstyled">
+									<li>Nullam suscipit vitae</li>
+									<li>Etiam faucibus</li>
+									<li>Vivamus viverra</li>
+								</ul>
+							</div>
+							<div class="footer">
+								<a href="#" class="package-purchase">Purchase</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md mb-5">
+					<div class="professional package">
+						<h2 class="package-title">professional package</h2>
+						<p class="package-price">25$</p>
+						<div class="package-features">
+							<ul class="list-unstyled">
+								<li>Nullam suscipit vitae</li>
+								<li>Etiam faucibus</li>
+								<li>Vivamus viverra</li>
+								<li>Praesent pharetra</li>
+							</ul>
+						</div>
+						<div class="footer">
+							<a href="#" class="package-purchase">Purchase</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="advanced package">
+						<div class="container p-0">
+							<h2 class="package-title">advanced package</h2>
+							<p class="package-price">30$</p>
+							<div class="package-features">
+								<ul class="list-unstyled">
+									<li>Nullam suscipit vitae</li>
+									<li>Etiam faucibus</li>
+									<li>Vivamus viverra</li>
+								</ul>
+							</div>
+							<div class="footer">
+								<a href="#" class="package-purchase">Purchase</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Prices -->
+	<!-- Start Testimonials -->
+	<div class="testimonials-wrapper" id="TestimonialsWrapper">
+		<div class="container">
+			<h2 class="title">Testimonials</h2>
+			<div id="testimonialsSlider" class="carousel slide testimonials-slider" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#testimonialsSlider" data-slide-to="0" class="active"></li>
+			    <li data-target="#testimonialsSlider" data-slide-to="1"></li>
+			    <li data-target="#testimonialsSlider" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <div class="row no-gutters">
+			      	<div class="col-md mb-5">
+			      		<div class="testimonial-image">
+			      			<img src="img/testimonials/0.png" alt="">
+			      		</div>
+			      	</div>
+			      	<div class="col-md">
+			      		<div class="testimonial-quote">
+			      			<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lobortis lectus eget libero blandit venenatis. In blandit tortor vel congue malesuada. Suspendisse molestie lobortis lorem dignissim pretium.</p>
+			      			<div class="testimonial-person">
+			      				<p class="name">John Doe</p>
+			      				<p class="company">from some company</p>
+			      			</div>
+			      		</div>
+			      	</div>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <div class="row no-gutters">
+			      	<div class="col-md mb-5">
+			      		<div class="testimonial-image">
+			      			<img src="img/testimonials/0.png" alt="">
+			      		</div>
+			      	</div>
+			      	<div class="col-md">
+			      		<div class="testimonial-quote">
+			      			<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lobortis lectus eget libero blandit venenatis. In blandit tortor vel congue malesuada. Suspendisse molestie lobortis lorem dignissim pretium.</p>
+			      			<div class="testimonial-person">
+			      				<p class="name">John Doe</p>
+			      				<p class="company">from some company</p>
+			      			</div>
+			      		</div>
+			      	</div>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <div class="row no-gutters">
+			      	<div class="col-md mb-5">
+			      		<div class="testimonial-image">
+			      			<img src="img/testimonials/0.png" alt="">
+			      		</div>
+			      	</div>
+			      	<div class="col-md">
+			      		<div class="testimonial-quote">
+			      			<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lobortis lectus eget libero blandit venenatis. In blandit tortor vel congue malesuada. Suspendisse molestie lobortis lorem dignissim pretium.</p>
+			      			<div class="testimonial-person">
+			      				<p class="name">John Doe</p>
+			      				<p class="company">from some company</p>
+			      			</div>
+			      		</div>
+			      	</div>
+			      </div>
+			    </div>
+			  </div>
+			</div>			
+		</div>
+	</div>
+	<!-- End Testimonials -->
+	<!-- Start Download -->
+	<div class="download-wrapper" id="DownloadWrapper">
+		<p class="download-question">Do you Like this app?</p>
+		<a href="#" class="download-now">Download now</a>
+	</div>
+	<!-- End Download -->
+	<!-- Start Contact -->
+	<div class="contact-wrapper" id="ContactWrapper">
+		<div class="map"></div>
+		<div class="contact-form">
+			<h2 class="form-title">Contact</h2>
+			<form action="#" method="POST">
+				<div class="form-group">
+					<input type="text" class="input" name="full_name" id="fullName" placeholder="Your Name...">
+				</div>
+				<div class="form-group">
+					<input type="email" class="input" name="email_address" id="emailAddress" placeholder="Your Email Address...">
+				</div>
+				<div class="form-group">
+					<input type="text" class="input" name="subject" id="subject" placeholder="Subject...">
+				</div>
+				<div class="form-group">
+					<textarea class="input text-message" name="text_message" id="textMessage" placeholder="Your Message..."></textarea>
+				</div>
+				<div class="form-group">
+					<button type="submit" class="btn btn-dark rounded send-message" name="send_message" id="sendMessage">Send</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- End Contact -->
+	<!-- Start Footer -->
+	<div class="footer-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-md">
+					<p class="copy-right">Copyright &copy; 2019 | WebOwner | All Rights Reserved</p>
+				</div>
+				<div class="col-md">
+					<div class="links">
+						<a href="#">Terms of Service</a>
+						<div class="divider"></div>
+						<a href="#">Privacy Policy</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Footer -->
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- End -->
+</body>
+</html>
