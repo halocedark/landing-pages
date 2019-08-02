@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html onmouseout="">
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="ico/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta name="viewport" content="width=device-width" />
+	<title>Foundapp</title>
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>	
+
+	<!-- Start Window Overlay -->
+	<div class="window-overlay" id="windowOverlay"></div>
+	<!-- End Window Overlay -->
+	<!-- Start Sidebar -->
+	<div class="sidebar-wrapper" id="sidebarWrapper">
+    <div class="social">
+    	<a href="https://github.com/halocedark/landing-pages" target="_blank" class="social-link">
+    		<i class="fab fa-github-alt"></i>
+    	</a>
+    	<a href="https://www.linkedin.com/in/abdennour-adouani-b26a0618b/" target="_blank" class="social-link">
+    		<i class="fab fa-linkedin-in"></i>
+    	</a>
+    	<a href="#" class="social-link">
+    		<i class="fab fa-google-plus-g"></i>
+    	</a>
+    	<a href="https://www.facebook.com/haloce.dark" target="_blank" class="social-link">
+    		<i class="fab fa-facebook-f"></i>
+    	</a>
+    	<a href="https://twitter.com/AbdennourAdoua1" target="_blank" class="social-link">
+    		<i class="fab fa-twitter"></i>
+    	</a>
+    </div>
+    <div class="navbar-menu">
+    	<ul class="list-unstyled">
+    		<li><a href="#">Home</a></li>
+    		<li data-section="#howItWorksWrapper"><a href="#">How it works</a></li>
+    		<li data-section="#benefitsWrapper"><a href="#">Benefits</a></li>
+    		<li data-section="#featuresWrapper"><a href="#">Features</a></li>
+    		<li data-section="#happyUsersWrapper"><a href="#">Happy Users</a></li>
+    		<li data-section="#footerWrapper"><a href="#">Never Miss Anything</a></li>
+    		<li data-section="#downloadAppWrapper"><a href="#" class="download-app">Download App <i class="fas fa-file-download icon"></i></a></li>
+    	</ul>
+    </div>
+    <div class="contact-info">
+    	<p class="text-muted">you@yourmail.com</p>
+    	<p class="text-muted">Fake Address 1A, California USA, 111188</p>
+    </div>
+  </div>
+	<!-- End Sidebar -->
+	<!-- Start Main Content -->
+	<div class="main-content" id="mainContent">
+
+		<!-- Start Header -->
+		<div class="header-wrapper">
+			<div class="overlay"></div>
+			<div class="top-wrap">
+				<div class="container">
+					<img src="img/header/logo.svg" alt="" class="logo">
+					<button type="button" class="sidebar-toggle" id="sidebarToggle" data-sidebar="#sidebarWrapper">
+						<i class="fas fa-bars"></i>
+					</button>
+				</div>
+			</div>
+			<div class="presentation-wrap">
+				<div class="container">
+					<div class="wrapper">
+						<h1 class="title">Experience a new way to showcase your app.</h1>
+						<div class="divider"></div>
+						<p class="description">A landing page template made with the new powerful web techonology. Focus on your application and let Founapp do the rest. Grab it today... <span>It’s FREE!</span></p>
+						<a href="#" class="download-app link animated delay-1s zoomIn">
+							<span class="icon">
+								<i class="fas fa-cloud-download-alt"></i>
+							</span>
+							<span class="text">Download app</span>
+						</a>
+						<a href="#" class="watch-video link">
+							<span class="icon">
+								<i class="fas fa-play"></i>
+							</span>
+							<span class="text">Watch video</span>			
+						</a>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Header -->	
+		<!-- Start Downloads -->
+		<div class="downloads-wrapper" id="downloadsWrapper">
+			<div class="container">
+				<div class="row no-gutters">
+					<div class="col-md-4 mb-5">
+						<div class="total-downloads">
+							<p class="counter" id="counter">40250</p>
+							<p class="text">Downloads so far.</p>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="client-companies">
+							<div class="row no-gutters">
+								<div class="col">
+									<img src="img/downloads/0.png" alt="">
+								</div>
+								<div class="col">
+									<img src="img/downloads/1.png" alt="">
+								</div>
+								<div class="col">
+									<img src="img/downloads/2.png" alt="">
+								</div>
+								<div class="col">
+									<img src="img/downloads/3.png" alt="">
+								</div>
+								<div class="col">
+									<img src="img/downloads/4.png" alt="">
+								</div>
+								<div class="col">
+									<img src="img/downloads/5.png" alt="">
+								</div>
+							</div>		
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Downloads -->
+		<!-- Start How it works -->
+		<div class="howitworks-wrapper" id="howItWorksWrapper">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-md">
+						<img src="img/howitworks/0.png" alt="" class="display animated" id="display">
+					</div>
+					<div class="col-md mb-5">
+						<div class="header">
+							<h1 class="title">Show how great and easy it is to use.</h1>
+							<div class="divider"></div>
+							<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptate ducimus unde eveniet id illo eum eius accusamus incidunt!</p>	
+						</div>
+						<div class="row">
+							<div class="col mb-5">
+								<div class="step animated delay-1s">
+									<div class="icon">
+										<i class="fas fa-cloud-download-alt"></i>
+									</div>
+									<div class="step-content">
+										<h2 class="title">1. Download</h2>
+										<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloribus in nesciunt inventore.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="step animated delay-2s">
+									<div class="icon">
+										<i class="far fa-heart"></i>
+									</div>
+									<div class="step-content">
+										<h2 class="title">2. Customize</h2>
+										<p class="description">Illum aspernatur repellendus? Laudantium recusandae ipsa voluptas ab aliquid, fuga voluptates, ut.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col mb-5">
+								<div class="step animated delay-3s">
+									<div class="icon">
+										<i class="fas fa-anchor"></i>
+									</div>
+									<div class="step-content">
+										<h2 class="title">3. Deploy</h2>
+										<p class="description">Dignissimos consequatur aperiam. Maiores odio esse est placeat debitis ipsa quidem aut laudantium.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="step animated delay-4s">
+									<div class="icon">
+										<i class="fas fa-chart-line"></i>
+									</div>
+									<div class="step-content">
+										<h2 class="title">4. Success</h2>
+										<p class="description">Perferendis dolores quibusdam porro mollitia incidunt atque at laudantium earum excepturi.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End How it works -->
+		<!-- Start Benefits -->
+		<div class="benefits-wrapper" id="benefitsWrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="details">
+							<h1 class="title">Outline your app's unique benefits.</h1>
+							<div class="divider"></div>
+							<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptate ducimus unde eveniet! Similique eius amet illum cupiditate tenetur.</p>
+							<div class="row benefit p-0 mb-4 animated delay-1s">
+								<div class="col-1">
+									<div class="icon">
+										<i class="fas fa-check"></i>
+									</div>
+								</div>
+								<div class="col">
+									<h2 class="benefit-title">Free For Ever</h2>
+									<p class="benefit-description">Ariatur ipsa veniam quis exercitationem deserunt consequuntur dolorum, possimus magni molestiae.</p>
+									<div class="benefit-divider"></div>
+								</div>
+							</div>
+							<div class="row benefit p-0 mb-4 animated delay-2s">
+								<div class="col-1">
+									<div class="icon">
+										<i class="fas fa-check"></i>
+									</div>
+								</div>
+								<div class="col">
+									<h2 class="benefit-title">Cross Browser Compatibility</h2>
+									<p class="benefit-description">Ariatur ipsa veniam quis exercitationem deserunt consequuntur dolorum, possimus magni molestiae.</p>
+									<div class="benefit-divider"></div>
+								</div>
+							</div>
+							<div class="row benefit p-0 animated delay-3s">
+								<div class="col-1">
+									<div class="icon">
+										<i class="fas fa-check"></i>
+									</div>
+								</div>
+								<div class="col">
+									<h2 class="benefit-title">Retina Ready</h2>
+									<p class="benefit-description">Ariatur ipsa veniam quis exercitationem deserunt consequuntur dolorum, possimus magni molestiae.</p>
+									<div class="benefit-divider"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+						<img src="img/benefits/0.png" alt="" class="display animated" id="display">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Benefits -->
+		<!-- Start Features -->
+		<div class="features-wrapper" id="featuresWrapper">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row features mb-5">
+					<div class="col-md-3 mb-5">
+						<h1 class="title">All the amazing features you've ever wanted!</h1>
+						<div class="divider"></div>
+						<a href="#" class="download-app">Download app</a>
+					</div>
+					<div class="col-md-9">
+						<div class="row mb-5">
+							<div class="col-md mb-3">
+								<div class="feature">
+									<div class="feature-icon animated delay-1s">
+										<i class="fas fa-rocket"></i>
+									</div>
+									<div class="content">
+										<h2 class="feature-title">Made with advanced technology</h2>
+										<p class="feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloribus in nesciunt inventore.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md mb-3">
+								<div class="feature">
+									<div class="feature-icon animated delay-1s">
+										<i class="fas fa-infinity"></i>
+									</div>
+									<div class="content">
+										<h2 class="feature-title">Motion UI Animations</h2>
+										<p class="feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloribus in nesciunt inventore.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md">
+								<div class="feature">
+									<div class="feature-icon animated delay-1s">
+										<i class="fas fa-mobile-alt"></i>
+									</div>
+									<div class="content">
+										<h2 class="feature-title">100% Responsive</h2>
+										<p class="feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloribus in nesciunt inventore.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row mb-5">
+							<div class="col-md mb-3">
+								<div class="feature">
+									<div class="feature-icon animated delay-1s">
+										<i class="fas fa-gem"></i>
+									</div>
+									<div class="content">
+										<h2 class="feature-title">Attractive Presentation Header</h2>
+										<p class="feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloribus in nesciunt inventore.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md mb-3">
+								<div class="feature">
+									<div class="feature-icon animated delay-1s">
+										<i class="fas fa-cogs"></i>
+									</div>
+									<div class="content">
+										<h2 class="feature-title">Fully Customizable</h2>
+										<p class="feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloribus in nesciunt inventore.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md">
+								<div class="feature">
+									<div class="feature-icon animated delay-1s">
+										<i class="fas fa-code"></i>
+									</div>
+									<div class="content">
+										<h2 class="feature-title">Clean Code</h2>
+										<p class="feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloribus in nesciunt inventore.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<!-- End Features -->
+		<!-- Start Happy Users -->
+		<div class="happyusers-wrapper" id="happyUsersWrapper">
+			<div class="container">
+				<div class="header container p-0">
+					<h1 class="title">Over 5,000 happy active users!</h1>
+					<div class="divider"></div>
+					<p class="description">Alias, quibusdam ex aspernatur ratione dolore consequuntur, iusto voluptatem cumque repudiandae voluptas vel impedit nam facilis velit excepturi nisi. Laborum, corrupti, quia!</p>
+				</div>
+				<div class="row mb-5">
+					<div class="col-md mb-3">
+						<div class="user">
+							<div class="info">
+								<img src="img/happy-users/0.png" alt="" class="photo">
+								<div class="more-details">
+									<p class="name">Anna S.</p>
+									<p class="company">XYZ Inc.</p>
+								</div>
+							</div>
+							<p class="user-testimonial">Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
+						</div>
+					</div>
+					<div class="col-md mb-3">
+						<div class="user">
+							<div class="info">
+								<img src="img/happy-users/1.png" alt="" class="photo">
+								<div class="more-details">
+									<p class="name">PauL B.</p>
+									<p class="company">Company Inc.</p>
+								</div>
+							</div>
+							<p class="user-testimonial">Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="user">
+							<div class="info">
+								<img src="img/happy-users/2.png" alt="" class="photo">
+								<div class="more-details">
+									<p class="name">Christina G.</p>
+									<p class="company">Brand</p>
+								</div>
+							</div>
+							<p class="user-testimonial">Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md mb-3">
+						<div class="user">
+							<div class="info">
+								<img src="img/happy-users/3.png" alt="" class="photo">
+								<div class="more-details">
+									<p class="name">Andrew CH.</p>
+									<p class="company">ABC Inc.</p>
+								</div>
+							</div>
+							<p class="user-testimonial">Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
+						</div>
+					</div>
+					<div class="col-md mb-3">
+						<div class="user">
+							<div class="info">
+								<img src="img/happy-users/4.png" alt="" class="photo">
+								<div class="more-details">
+									<p class="name">Steven D.</p>
+									<p class="company">Agency Inc.</p>
+								</div>
+							</div>
+							<p class="user-testimonial">Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="user">
+							<div class="info">
+								<img src="img/happy-users/5.png" alt="" class="photo">
+								<div class="more-details">
+									<p class="name">Laura K.</p>
+									<p class="company">Studio Inc.</p>
+								</div>
+							</div>
+							<p class="user-testimonial">Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Happy Users -->
+		<!-- Start Download App -->
+		<div class="downloadapp-wrapper" id="downloadAppWrapper">
+			<div class="overlay"></div>
+			<div class="contents">
+				<div class="container p-0 header-container">
+					<h1 class="title">Get Your Free Download Of Foundapp TODAY!</h1>
+					<div class="divider"></div>
+					<p class="description">Present your smashing App to the world with a neat landing page template made with the powerful web Technology.</p>
+				</div>
+				<div class="container store-links-container p-0">
+					<div class="links">
+						<a href="#" class="store-link animated">
+							<span class="icon">
+								<i class="fab fa-apple"></i>
+							</span>
+							<span class="text">App Store</span>
+						</a>
+						<a href="#" class="store-link animated delay-1s">
+							<span class="icon">
+								<i class="fab fa-android"></i>
+							</span>
+							<span class="text">Google Play</span>
+						</a>
+						<a href="#" class="store-link animated delay-2s">
+							<span class="icon">
+								<i class="fab fa-windows"></i>
+							</span>
+							<span class="text">Windows Store</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Download App -->
+		<!-- Start Footer -->
+		<div class="footer-wrapper" id="footerWrapper">
+			<div class="container">
+				<div class="row pb-5">
+					<div class="col-md mb-3">
+						<h2 class="title">About</h2>
+						<p class="description">Porro temporibus est iure, eos ab facilis, ipsum aut praesentium nam explicabo, tempore maiores obcaecati officiis, ipsa repellendus quaerat ducimus repudiandae corporis.</p>
+					</div>
+					<div class="col-md mb-3">
+						<h2 class="title">Stay Updated</h2>
+						<p class="description">Voluptatibus distinctio aut nisi doloribus veritatis, eos perspiciatis provident.</p>
+						<form action="#" method="POST" class="subscribe">
+							<div class="input-group">
+								<input type="text" class="email" id="email" name="email" placeholder="Your valid email address">
+								<button type="submit" class="subscribe-go">Go!</button>
+							</div>
+						</form>
+					</div>
+					<div class="col-md">
+						<div class="other-container container">
+							<img src="img/footer/logo.svg" alt="" class="logo">
+							<div class="divider"></div>
+							<div class="social">
+								<div class="level01">
+									<a href="https://github.com/halocedark/landing-pages" target="_blank">
+										<i class="fab fa-github-alt"></i>
+									</a>
+									<a href="#" target="_blank">
+										<i class="fab fa-instagram"></i>
+									</a>
+									<a href="#" target="_blank">
+										<i class="fab fa-google-plus-g"></i>
+									</a>
+									<a href="https://facebook.com/haloce.dark" target="_blank">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+									<a href="https://twitter.com/AbdennourAdoua1" target="_blank">
+										<i class="fab fa-twitter"></i>
+									</a>
+								</div>
+								<div class="level02">
+									<a href="#" target="_blank">
+										<i class="fab fa-codepen"></i>
+									</a>
+									<a href="#" target="_blank">
+										<i class="fab fa-jsfiddle"></i>
+									</a>
+									<a href="https://linkedin.com/in/abdennour-adouani-b26a0618b/" target="_blank">
+										<i class="fab fa-linkedin-in"></i>
+									</a>
+									<a href="#" target="_blank">
+										<i class="fab fa-pinterest-p"></i>
+									</a>
+									<a href="#" target="_blank">
+										<i class="fab fa-vimeo-v"></i>
+									</a>
+								</div>
+							</div>	
+						</div>
+					</div>	
+				</div>
+				<p class="copyright m-0">Copyright &copy; 2019 | Designed & Developed by <a href="https://github.com/halocedark/landing-pages" class="text-white">WebOwner</a></p>
+			</div>
+		</div>
+		<!-- End Footer -->
+
+	</div>
+	<!-- End Main Content -->
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- End -->
+</body>
+</html>
