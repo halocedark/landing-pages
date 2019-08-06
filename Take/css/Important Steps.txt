@@ -1,0 +1,4 @@
+You can either use main.min.css / main.css
+
+1- The difference between the two is that "main.css" is easy to edit and change.
+2- The Minified version "main.min.css" is for making website load faster, but difficult to edit and change.
